@@ -33,9 +33,28 @@ console.log()
 Data types:
 boolean - true/false 1/0
 number
-string(sõne) - tekst
-array(list) - hulk, konteiner, karp
+string (sõne) - tekst
 undefined null - tühi muutuja
+
+Andmestruktuurid:
+array (List) - hulk, konteiner, karp
+object (Dictionary, Map, HashMap, assocative array)
+
+[] vahest on uus array, vahest on array seest lugemine
+{} vahest on uus object, vahest on koodi plokk
+
+index
+array = [7,5,2,4]
+
+property = key-value pairs
+
+key=name=nimi=võti
+value=väärtus
+
+object = {
+   nimi: "Timo", 
+   amet: "Õpetaja"
+}
 
 
 i = 10
