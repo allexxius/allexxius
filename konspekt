@@ -37,8 +37,8 @@ string (sõne) - tekst
 undefined null - tühi muutuja
 
 Andmestruktuurid:
-array (List) - hulk, konteiner, karp
-object (Dictionary, Map, HashMap, assocative array)
+array (List) - hulk, konteiner, karp   []
+object (Dictionary, Map, HashMap, assocative array)   {}
 
 [] vahest on uus array, vahest on array seest lugemine
 {} vahest on uus object, vahest on koodi plokk
@@ -55,6 +55,15 @@ object = {
    nimi: "Timo", 
    amet: "Õpetaja"
 }
+
+array = []
+object = {}
+
+if () {} <- see ei ole object
+function test() {return 2} <- see ei ole object
+
+console.log( {} )         <- see on object
+console.log( () => {} )   <- see ei ole object
 
 
 i = 10
