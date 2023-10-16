@@ -59,11 +59,11 @@ object = {
 array = []
 object = {}
 
-if () {} <- see ei ole object
-function test() {return 2} <- see ei ole object
+if () {}                     <- see ei ole object
+function test() {return 2}   <- see ei ole object
 
-console.log( {} )         <- see on object
-console.log( () => {} )   <- see ei ole object
+console.log( {} )            <- see on object
+console.log( () => {} )      <- see ei ole object
 
 
 i = 10
