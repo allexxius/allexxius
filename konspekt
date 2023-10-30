@@ -65,6 +65,15 @@ function test() {return 2}   <- see ei ole object
 console.log( {} )            <- see on object
 console.log( () => {} )      <- see ei ole object
 
+Promise:
+sünkroonne, asünkroonne
+teisest arvutist
+kui peab kaua ootama, et arvuti ei jookseks kokku
+=> funktsioon
+. operaator
+finally, catch, then
+
+
 
 i = 10
 
